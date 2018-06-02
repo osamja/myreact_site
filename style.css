@@ -1,6 +1,16 @@
 body {
-    background-color: lightgoldenrodyellow;
-    padding: 5% 30% 5% 30%;
+    background-color: lightblue;
+    padding: 5%;
+}
+
+.Webpage {
+    padding: 10%;
+}
+
+.WebsiteContent {
+    background-color: gold;
+    padding: 10%;
+    border: 5px solid gray;
 }
 
 h1 {

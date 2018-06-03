@@ -1,16 +1,21 @@
 body {
-    background-color: lightblue;
-    padding: 5%;
+    background-color: #1a8bc6;
 }
 
 .Webpage {
-    padding: 10%;
+    padding: 5% 20%;
 }
 
 .WebsiteContent {
-    background-color: gold;
-    padding: 10%;
+    background-color: #ffe766;
+    padding: 5% 10%;
     border: 5px solid gray;
+
+}
+
+.WebsiteContent img{
+    width: 100%;
+    height: auto;
 }
 
 h1 {

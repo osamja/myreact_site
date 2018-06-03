@@ -9,7 +9,7 @@ class Projects extends React.Component {
     render() {
         return (
             <div className="ProjectHeader">
-                <h1>Projects</h1>
+                <h2>Projects</h2>
                 <p>Here are some of the projects I've worked on.</p>
                 <div className="ProjectDetails">
                     <h3>Side Projects</h3>

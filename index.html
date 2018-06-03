@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <title>Sammy Javed</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="scripts/react.development.js"></script>
+    <script src="scripts/react-dom.development.js"></script>
+    <script src="scripts/babel.min.js"></script>
     <script type="text/babel" src="components/Welcome.jsx"></script>
     <script type="text/babel" src="components/Projects.jsx"></script>
 
@@ -16,13 +16,14 @@
 <script type="text/babel">
     // Define React components
     const welcomeHeader = <WelcomeHeader name="Sammy" />;
-    const ProjectSection = <Projects name="Sammy" />;
+    const projectSection = <Projects name="Sammy" />;
     const webpage =
         <div className="Webpage">
             <div className="WebsiteContent">
                 {welcomeHeader}
-                {ProjectSection}
-            </div>;
+                {projectSection}
+                <img src="static/images/peru_mp.JPG"/>
+            </div>
         </div>
 
 
@@ -33,5 +34,12 @@
     );
 
 </script>
+<!--
+Potential sections for website
+1. Live Projects (Export computer visision python projects to JS, ex. image morpher)
+2. Photography
+3. Blog
+4. Project Archive
+-->
 </body>
 </html>

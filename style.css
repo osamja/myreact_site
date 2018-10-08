@@ -1,5 +1,5 @@
 body {
-    background-color: #1a8bc6;
+    background-color: #000000;
 }
 
 .Webpage {
@@ -7,7 +7,6 @@ body {
 }
 
 .WebsiteContent {
-    background-color: #ffe766;
     padding: 5% 10%;
     border: 5px solid gray;
 
@@ -18,9 +17,12 @@ body {
     height: auto;
 }
 
+h1, h2, h3, h4, p {
+    color: white;
+}
+
 h1 {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    font-size: 24px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
@@ -28,7 +30,6 @@ h1 {
 }
 h3 {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    font-size: 14px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
@@ -36,7 +37,6 @@ h3 {
 }
 p {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    font-size: 14px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;

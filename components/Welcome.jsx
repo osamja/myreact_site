@@ -10,7 +10,7 @@ class WelcomeHeader extends React.Component {
         return (
             <div className="WelcomeHeader">
                 <h1>Welcome to my website!</h1>
-                <p>I'm Sammy, nice to meet you :)</p>
+                <p>I'm {this.state.name}, nice to meet you :)</p>
             </div>
         );
     }

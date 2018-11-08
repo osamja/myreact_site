@@ -21,7 +21,7 @@ CSS Grid
  */
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(12, [col-start] 1fr);
     grid-gap: 50px;
     padding: 5% 10%;
 }
@@ -38,11 +38,7 @@ CSS Grid
     background-position: center;
     background-size: cover;
     overflow: hidden;
-}
-
-span {
-    z-index: 1;
-    opacity: 1;
+    grid-column: col-start 2 / span 6;
 }
 
 .bio {
@@ -55,7 +51,6 @@ span {
 
 .photography {
     background-image: url("../static/images/evc.JPG");
-    background-position: 50% 30%;
 }
 
 .academic {

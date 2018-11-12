@@ -1,5 +1,11 @@
 
-const imgUrls = ['https://source.unsplash.com/PC_lbSSxCZE/800x600','https://source.unsplash.com/lVmR1YaBGG4/800x600','https://source.unsplash.com/5KvPQc1Uklk/800x600','https://source.unsplash.com/GtYFwFrFbMA/800x600','https://source.unsplash.com/Igct8iZucFI/800x600','https://source.unsplash.com/M01DfkOqz7I/800x600','https://source.unsplash.com/MoI_cHNcSK8/800x600','https://source.unsplash.com/M0WbGFRTXqU/800x600','https://source.unsplash.com/s48nn4NtlZ4/800x600','https://source.unsplash.com/E4944K_4SvI/800x600','https://source.unsplash.com/F5Dxy9i8bxc/800x600','https://source.unsplash.com/iPum7Ket2jo/800x600'
+const imgUrls = [
+    'static/images/evc2.jpeg',
+    'static/images/switz.jpg',
+    'static/images/balloon.jpg',
+    'static/images/cake.jpg',
+    'static/images/fire.jpg',
+    'static/images/fireworks.jpg',
 ];
 
 class Gallery extends React.Component {
@@ -85,7 +91,7 @@ class GalleryModal extends React.Component {
     render () {
         const { closeModal, hasNext, hasPrev, findNext, findPrev, src } = this.props;
         if (!src) {
-            console.log('whut')
+            console.log('Rendering with no source')
             return null;
         }
         return (

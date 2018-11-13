@@ -109,9 +109,22 @@ class GalleryModal extends React.Component {
             <div className="modal-overlay" onClick={closeModal}></div>
             <div isOpen={!!src} className="modal">
             <div className='modal-body'>
-            <a href="#" className='modal-close' onClick={closeModal} onKeyDown={this.handleKeyDown}>&times;</a>
-            {hasPrev && <a href="#" className='modal-prev' onClick={findPrev} onKeyDown={this.handleKeyDown}>&lsaquo;</a>}
-            {hasNext && <a href="#" className='modal-next' onClick={findNext} onKeyDown={this.handleKeyDown}>&rsaquo;</a>}
+            <a href="#" className='modal-close' onClick={closeModal}
+               onKeyDown={this.handleKeyDown}>&times;</a>
+            {
+                hasPrev &&
+                <a href="#" className='modal-prev' onClick={findPrev}
+                   onKeyDown={this.handleKeyDown}>&lsaquo;
+                </a>
+            }
+
+            {
+                hasNext &&
+                <a href="#" className='modal-next' onClick={findNext}
+                   onKeyDown={this.handleKeyDown}>&rsaquo;
+                </a>
+            }
+            
             <img src={src} />
             </div>
             </div>

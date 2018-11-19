@@ -11,3 +11,7 @@ Main
  3. Blog
  4. Project Archive
  Include hero image
+ 
+ 
+ 
+Need to build site for production (minimize files)

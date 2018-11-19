@@ -8,10 +8,3 @@ Rebuilding my personal website using the React framework.
     b. row x 2 layout.  There should be at most two columns.
     
     
-<!--
-Potential sections for website
-1. Live Projects (Export computer visision python projects to JS, ex. image morpher)
-2. Photography
-3. Blog
-4. Project Archive
--->

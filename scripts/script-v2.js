@@ -1,9 +1,9 @@
 const imgUrls = [
     'static/images/evc2.jpeg',
-    'static/images/switz.jpg',
-    'static/images/balloon.jpg',
-    'static/images/cake.jpg',
-    'static/images/fire.jpg',
-    'static/images/fireworks.jpg',
+    'static/images/cal.jpg',
+    'static/images/evc-lake.jpg',
+    'static/images/pier.jpg',
+    'static/images/laska.jpg',
+    'static/images/bosphorus.jpg',
 ];
 

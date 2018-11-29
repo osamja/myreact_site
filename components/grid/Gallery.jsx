@@ -16,7 +16,6 @@ class Gallery extends React.Component {
     render() {
         return (
             <div className="gallery-container">
-                <h1>Sammy Javed</h1>
                 <div className="gallery-grid">
                     {imgUrls.map(this.renderImageContent)}
                 </div>

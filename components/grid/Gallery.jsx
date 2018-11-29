@@ -7,7 +7,7 @@ class Gallery extends React.Component {
 
     renderImageContent(src, index) {
         return (
-            <div>
+            <div key={src.toString()}>
                 <img src={src}/>
             </div>
         )

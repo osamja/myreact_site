@@ -1,14 +1,26 @@
 class Gallery extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { currentIndex: null };
+        let imageText = {
+            color: 'white',
+            position: 'absolute',
+            top: '12px',
+            left: '12px',
+            backgroundColor: 'black',
+            opacity: '0.7',
+        };
+        this.state = {
+            currentIndex: null,
+            imageText: imageText
+        };
         this.renderImageContent = this.renderImageContent.bind(this);
     }
 
-    renderImageContent(src, index) {
+    renderImageContent(image_content, index) {
         return (
-            <div key={src.toString()}>
-                <img src={src}/>
+            <div key={image_content.text.toString()}>
+                <img src={image_content.src}/>
+                <h2 style={this.state.imageText}>{image_content.text}</h2>
             </div>
         )
     }

@@ -1,9 +1,26 @@
 const imgUrls = [
-    'static/images/home/compressed/evc2.jpg',
-    'static/images/home/compressed/cal.jpg',
-    'static/images/home/compressed/evc-lake.jpg',
-    'static/images/home/compressed/pier.jpg',
-    'static/images/home/compressed/laska.jpg',
-    'static/images/home/compressed/bosphorus.jpg',
+    {
+        'src': 'static/images/home/compressed/evc2.jpg',
+        'text': 'Photography',
+    },
+    {
+        'src': 'static/images/home/compressed/cal.jpg',
+        'text': 'Academic',
+    },
+    {
+        'src': 'static/images/home/compressed/evc-lake.jpg',
+        'text': 'Photography',
+    },
+    {
+        'src': 'static/images/home/compressed/pier.jpg',
+        'text': 'Photography',
+    },
+    {
+        'src': 'static/images/home/compressed/laska.jpg',
+        'text': 'Photography',
+    },
+    {
+        'src': 'static/images/home/compressed/bosphorus.jpg',
+        'text': 'Photography',
+    },
 ];
-

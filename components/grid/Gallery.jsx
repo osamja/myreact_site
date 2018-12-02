@@ -20,7 +20,7 @@ class Gallery extends React.Component {
         return (
             <div key={image_content.text.toString()}>
                 <img src={image_content.src}/>
-                <h2 style={this.state.imageText}>{image_content.text}</h2>
+                {/*<h2 style={this.state.imageText}>{image_content.text}</h2>*/}
             </div>
         )
     }

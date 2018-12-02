@@ -1,7 +1,7 @@
 const imgUrls = [
     {
         'src': 'static/images/home/compressed/evc2.jpg',
-        'text': 'Photography',
+        'text': 'Bio',
     },
     {
         'src': 'static/images/home/compressed/cal.jpg',
@@ -9,7 +9,7 @@ const imgUrls = [
     },
     {
         'src': 'static/images/home/compressed/evc-lake.jpg',
-        'text': 'Photography',
+        'text': 'Travel',
     },
     {
         'src': 'static/images/home/compressed/pier.jpg',
